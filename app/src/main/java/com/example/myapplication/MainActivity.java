@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void dispNotif(View view) {
 
-
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "personal_notifications");
             builder.setSmallIcon(R.drawable.ic_android_black_24dp);
             builder.setContentTitle("adsfasd");
